@@ -1,0 +1,15 @@
+1️⃣1️⃣ Interviewer Will Run It Like This
+
+Steps:
+
+1️⃣ Clone repo
+
+git clone https://github.com/pinkiyadav/course-discovery.git
+
+2️⃣ Import database
+
+course-discovery.sql
+
+3️⃣ Run in localhost
+
+http://localhost/course-discovery

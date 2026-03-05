@@ -1,0 +1,18 @@
+# WordPress
+wp-config.php
+
+# uploads
+wp-content/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# node modules
+node_modules/
+
+# logs
+*.log
+
+# cache
+wp-content/cache/
