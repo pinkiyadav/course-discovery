@@ -74,6 +74,16 @@ Set database credentials.
 
 
 http://localhost/course-discovery
+## Demo Access
+
+### Frontend
+http://your-project-url.com
+
+### WordPress Admin
+http://your-project-url.com/wp-admin
+
+Username: pinki  
+Password: DRftgyhu12
 
 ## UI Preview
 
