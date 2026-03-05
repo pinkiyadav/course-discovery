@@ -35,31 +35,19 @@ The system supports:
 - Courses
 - Providers
 - Instructors
+## Setup Instructions
 
-## Installation
+1. Install WordPress locally.
 
-1. Clone repository
+2. Clone repository into wp-content/themes/
 
+3. Activate theme:
 
-git clone https://github.com/pinkiyadav/course-discovery.git
+Appearance → Themes → Course Theme
 
-
-2. Place project in XAMPP htdocs
-
-
-C:\xampp\htdocs\course-discovery
-
-
-3. Import database
-
-Open **phpMyAdmin**
-
-Import file:
-
+4. Import database file:
 
 database/course-discovery.sql
-
-
 4. Update database connection
 
 Edit:
@@ -69,6 +57,14 @@ wp-config.php
 
 
 Set database credentials.
+
+
+5. Install Advanced Custom Fields plugin.
+
+6. Visit:
+
+/courses
+
 
 5. Run project
 
