@@ -1,7 +1,7 @@
-Course Discovery – WordPress Assignment
+##Course Discovery – WordPress Assignment
 This project implements a Course Discovery system using WordPress with advanced filtering logic.
 
-Features
+##Features
 Dynamic Search: Text-based search across course titles and content.
 
 Robust Filtering: Multi-select filters for Providers, Locations, Categories, and Start Dates.
@@ -12,7 +12,7 @@ Reset Functionality: One-click reset to clear all active search parameters.
 
 Responsive UI: A clean, grid-based layout for course cards.
 
-Filter Logic
+##Filter Logic
 The discovery engine uses a compound query structure:
 
 Top-level filters use AND logic (e.g., Category AND Provider).
@@ -20,9 +20,9 @@ Top-level filters use AND logic (e.g., Category AND Provider).
 Values within the same filter use OR logic (e.g., Provider A OR Provider B).
 
 Example Query:
-(provider = UOSD OR provider = DMU) AND (location = India OR location = China) AND (category = Graphic Design)
+(provider = Future Skills OR provider = AI Hub) AND (location = India OR location = UK) AND (category = Graphic Design)
 
-Setup Instructions
+##Setup Instructions
 Install WordPress: Set up a local environment (XAMPP/LocalWP).
 
 Clone Repository: Place the theme folder into wp-content/themes/.
@@ -79,7 +79,7 @@ Gitignore: The .gitignore file is included to prevent node_modules, .env, and OS
 
 ACF Return Format: The Provider relationship field is configured to return Post IDs for lightweight querying.
 
-Demo Access
+##Demo Access
 WordPress Admin: http://your-project-url.com/wp-admin
 
 Username: pinki
